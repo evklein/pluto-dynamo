@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         CognitoCachingCredentialsProvider credentialsProvider = new CognitoCachingCredentialsProvider(
                 getApplicationContext(),
-                "us-west-2:7267bf4e-7197-42f4-b411-a71af21233a6", // Identity Pool ID
+                "API_KEY", // Identity Pool ID
                 Regions.US_WEST_2 // Region
         );
 
